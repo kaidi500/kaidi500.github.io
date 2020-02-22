@@ -80,19 +80,21 @@ hr {
     margin-bottom: 5px;
 } 
 
- .meist {
-    display: float;
+.meist {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
 }
 
-.container .meist {
-    float: none;
-    width: 100%;
+.konteiner .meist {
+    float: left;
+    width: 50%;
 }
 
-.container .meiepilt {
-        display: none;
+.konteiner .pilt {
+    width: 50%;
+    height:50%;
+    margin-top: 20px;
+    padding: 35px;
     }
 
 
@@ -115,17 +117,13 @@ hr {
 }
 
 @media only screen and (max-width: 950px) {   
-    .container .meist {
-        width: 50%;
-        float: left;
+    .konteiner .meist {
+        width: 100%;
+        float: none;
     }
     
-    . container .meiepilt {
-        float: right;
-        width: 50px;
-        height: 100px;
-        margin-top: 20px;
-        padding: 35px;
+    .konteiner .meist.pildiga {
+        display: none;
     }
 }
 
