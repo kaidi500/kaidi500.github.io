@@ -37,6 +37,11 @@ footer {
     padding: 5em;
 }
 
+.pilt img {
+    max-width: 100%;
+    height: auto;
+}
+
 .carousel-inner img {
 	width: 35%;
 	height: 35%;
